@@ -1,0 +1,20 @@
+{{ form_start(formformation) }}
+    <div class="row">
+        <div class="col">             
+            <div class="row">
+                <div class="col">
+                    {{ form_row(formformation.title) }}
+                </div>
+                <div class="col">
+                    {{ form_row(formformation.publishedAt) }}                                                  
+                </div>
+            </div>
+            {{ form_row(formformation.description) }}
+            {{ form_row(formformation.playlist) }}
+            {{ form_row(formformation.categories) }}
+        </div>
+        <div class="col">
+            <!-- emplacement image -->           
+        </div>
+    </div>           
+{{ form_end(formformation) }}
