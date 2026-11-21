@@ -110,8 +110,5 @@ class AdminFormationsController extends AbstractController {
             'formformation' => $formFormation->createView()
         ]);
     }  
-    
-    
-    
-    
+       
 }
